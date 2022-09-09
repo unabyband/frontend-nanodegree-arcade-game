@@ -90,7 +90,6 @@ Player.prototype.handleInput = function (keyPress) {
     };
 };
 
-
 // Now instantiate your objects.
 // Place all enemy objects in an array called allEnemies
 let wins = 0;
@@ -117,7 +116,6 @@ document.addEventListener('keyup', function(e) {
         39: 'right',
         40: 'down'
     };
-
     player.handleInput(allowedKeys[e.keyCode]);
 });
 
